@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>KaceyPidazo's Portfolio</title>
+</head>
+
+<body class="bg-[#081F26] flex flex-col h-screen overflow-hidden">
+
+    <!-- ===================== -->
+    <!-- Navigation Bar -->
+    <!-- ===================== -->
+    <nav class="bg-[#081F26] text-white shadow-md fixed top-0 left-0 w-full z-30">
+
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+            <h1 class="text-2xl font-bold text-[#7EFC9F]">
+                KaceyPidazo
+            </h1>
+
+            <ul class="flex gap-6 font-medium">
+                <li><a href="#home" class="hover:text-[#7EFC9F] hover:underline">Home</a></li>
+                <li><a href="#about" class="hover:text-[#7EFC9F] hover:underline">About</a></li>
+                <li><a href="#projects" class="hover:text-[#7EFC9F] hover:underline">Projects</a></li>
+                <li><a href="#hackathons" class="hover:text-[#7EFC9F] hover:underline">Hackathons</a></li>
+                <li><a href="#skills" class="hover:text-[#7EFC9F] hover:underline">Skills</a></li>
+                <li><a href="#education" class="hover:text-[#7EFC9F] hover:underline">Education</a></li>
+                <li><a href="#contact" class="hover:text-[#7EFC9F] hover:underline">Contact</a></li>
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <div class="flex-1 pt-16 overflow-y-auto">
+        <!-- ===================== -->
+        <!-- Hero Section -->
+        <!-- ===================== -->
+        <section id="home"
+            class="max-w-7xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center justify-between gap-12">
+
+            <!-- Left: Text content -->
+            <div class="flex-1 text-left">
+
+                <p class="text-[#7EFC9F] font-semibold tracking-wide mb-3">
+                    HELLO, I'M
+                </p>
+
+                <h2 class="text-5xl font-bold text-white">
+                    BENJAMIN KACEY L. PIDAZO
+                </h2>
+
+                <p class="mt-4 text-xl text-[#7EFC9F]">
+                    Software Developer | Data Analyst | Advocate
+                </p>
+
+                <p class="mt-5 text-white max-w-xl">
+                    I build solutions and innovate technology for humanity.
+                </p>
+
+                <div class="mt-8 flex gap-4">
+                    <button
+                        class="bg-[#7EFC9F] hover:bg-white text-[#081F26] font-semibold px-8 py-3 rounded-lg shadow transition duration-300">
+                        View My Projects
+                    </button>
+
+                    <button
+                        class="border-2 border-white hover:border-[#7EFC9F] hover:text-[#7EFC9F] text-white font-semibold px-8 py-3 rounded-lg transition duration-300">
+                        Contact Me
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- Right: Avatar circle -->
+            <div class="flex-shrink-0">
+                <div class="w-72 h-72 rounded-full border-4 border-[#7EFC9F] overflow-hidden bg-[#0e2b34]">
+                    <img src="formal_photo.jpg" alt="Formal photo of Benjamin Kacey L. Pidazo"
+                        class="w-full h-full object-cover">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ===================== -->
+        <!-- Professional Section -->
+        <!-- ===================== -->
+        <section id="about" class="max-w-7xl mx-auto px-6 py-20">
+
+            <!-- Top: Section heading -->
+            <div class="text-center mb-12">
+
+                <p class="text-[#7EFC9F] font-semibold tracking-wide uppercase mb-2">
+                    Get to Know Me
+                </p>
+
+                <h2 class="text-5xl font-bold text-white mb-2">
+                    About Me
+                </h2>
+
+                <div class="w-16 h-1 bg-[#7EFC9F] mx-auto"></div>
+
+            </div>
+
+            <!-- Bottom: Image left, text right -->
+            <div class="flex flex-col md:flex-row items-center gap-12">
+
+                <!-- Left: Image placeholder -->
+                <div class="flex-1 flex justify-center">
+                    <div class="w-72 h-72 rounded-2xl border-2 border-[#7EFC9F] overflow-hidden bg-[#0e2b34]">
+                        <img src="aboutme_pic2.jpg" alt="Benjamin Kacey in action" class="w-full h-full object-cover">
+                    </div>
+                </div>
+
+                <!-- Right: Text content -->
+                <div class="flex-1 text-left">
+
+                    <h3 class="text-2xl font-bold text-[#7EFC9F] mb-4">
+                        Aspiring Data Analyst
+                    </h3>
+
+                    <p class="text-white mb-4">
+                        I am a 3rd Year BSIT Student of CLSU, majoring in Software Systems Engineering,
+                        with experience in regional, national, and international ventures. My interest is
+                        in Data Analytics and Artificial Intelligence.
+                    </p>
+
+                    <p class="text-white mb-6">
+                        My professional mission is to turn data into valuable insights that can be
+                        beneficial for humanity.
+                    </p>
+
+                    <div class="flex flex-wrap gap-3">
+                        <span
+                            class="bg-[#0e2b34] border border-[#7EFC9F] text-[#7EFC9F] font-medium px-4 py-2 rounded-full">
+                            BS Information Technology
+                        </span>
+                        <span
+                            class="bg-[#0e2b34] border border-[#7EFC9F] text-[#7EFC9F] font-medium px-4 py-2 rounded-full">
+                            Data Analytics
+                        </span>
+                        <span
+                            class="bg-[#0e2b34] border border-[#7EFC9F] text-[#7EFC9F] font-medium px-4 py-2 rounded-full">
+                            Artificial Intelligence
+                        </span>
+                        <span
+                            class="bg-[#0e2b34] border border-[#7EFC9F] text-[#7EFC9F] font-medium px-4 py-2 rounded-full">
+                            Software Systems Engineering
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ===================== -->
+        <!-- Projects Section -->
+        <!-- ===================== -->
+        <section id="projects" class="max-w-7xl mx-auto px-6 py-20">
+
+            <!-- Top: Section heading -->
+            <div class="text-center mb-12">
+
+                <p class="text-[#7EFC9F] font-semibold tracking-wide uppercase mb-2">
+                    My Work
+                </p>
+
+                <h2 class="text-5xl font-bold text-white mb-2">
+                    Current Projects
+                </h2>
+
+                <div class="w-16 h-1 bg-[#7EFC9F] mx-auto"></div>
+
+            </div>
+
+            <!-- Project cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Card 1 -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-xl hover:-translate-y-2 transition duration-300">
+
+                    <div class="bg-[#0e2b34] h-48 flex items-center justify-center">
+                        <span class="text-6xl">🚗</span>
+                    </div>
+
+                    <div class="p-6">
+
+                        <h3 class="text-xl font-bold text-[#081F26]">
+                            AcciPrevent: Road Accident Prediction System
+                        </h3>
+
+                        <p class="mt-3 text-gray-600">
+                            A simple road accident prediction system using Python and Logistic Regression.
+                            Applies real-world concepts of known events/conditions related to road accidents.
+                        </p>
+
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span
+                                class="bg-[#e6f9ec] text-[#0e6b3a] text-sm font-medium px-3 py-1 rounded-full">Python</span>
+                            <span
+                                class="bg-[#e6f9ec] text-[#0e6b3a] text-sm font-medium px-3 py-1 rounded-full">Logistic
+                                Regression</span>
+                        </div>
+
+                        <button
+                            class="mt-6 w-full border-2 border-[#081F26] text-[#081F26] font-semibold py-2 rounded-lg hover:bg-[#081F26] hover:text-white transition duration-300">
+                            View Project
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-xl hover:-translate-y-2 transition duration-300">
+
+                    <div class="bg-[#0e2b34] h-48 flex items-center justify-center">
+                        <span class="text-6xl">🏛️</span>
+                    </div>
+
+                    <div class="p-6">
+
+                        <h3 class="text-xl font-bold text-[#081F26]">
+                            PerSieve: An Interactive Virtual Tour for Dungon Museo De CLSU
+                        </h3>
+
+                        <p class="mt-3 text-gray-600">
+                            An interactive 360 virtual museum tour built to promote Dungon Museo De CLSU.
+                        </p>
+
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span
+                                class="bg-[#e6f9ec] text-[#0e6b3a] text-sm font-medium px-3 py-1 rounded-full">VR</span>
+                            <span
+                                class="bg-[#e6f9ec] text-[#0e6b3a] text-sm font-medium px-3 py-1 rounded-full">JavaScript</span>
+                        </div>
+
+                        <button
+                            class="mt-6 w-full border-2 border-[#081F26] text-[#081F26] font-semibold py-2 rounded-lg hover:bg-[#081F26] hover:text-white transition duration-300">
+                            View Project
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-xl hover:-translate-y-2 transition duration-300">
+
+                    <div class="bg-[#0e2b34] h-48 flex items-center justify-center">
+                        <span class="text-6xl">💧</span>
+                    </div>
+
+                    <div class="p-6">
+
+                        <h3 class="text-xl font-bold text-[#081F26]">
+                            H2GO: A Smart Water Management System for POWAS San Jose City
+                        </h3>
+
+                        <p class="mt-3 text-gray-600">
+                            A smart water management system designed as a Decision Support System (DSS) in billing, tank
+                            repairs, and water quality monitoring.
+                        </p>
+
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span
+                                class="bg-[#e6f9ec] text-[#0e6b3a] text-sm font-medium px-3 py-1 rounded-full">IoT</span>
+                            <span
+                                class="bg-[#e6f9ec] text-[#0e6b3a] text-sm font-medium px-3 py-1 rounded-full">GIS</span>
+                            <span class="bg-[#e6f9ec] text-[#0e6b3a] text-sm font-medium px-3 py-1 rounded-full">Data
+                                Analytics</span>
+
+                        </div>
+
+                        <button
+                            class="mt-6 w-full border-2 border-[#081F26] text-[#081F26] font-semibold py-2 rounded-lg hover:bg-[#081F26] hover:text-white transition duration-300">
+                            View Project
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ===================== -->
+        <!-- Hackathon Section -->
+        <!-- ===================== -->
+
+        <section id="hackathons" class="text-center max-w-7xl mx-auto px-6 py-10">
+
+            <!-- Top: Section heading, centered -->
+            <div class="text-center mb-12">
+
+                <p class="text-[#7EFC9F] font-semibold tracking-wide uppercase mb-2">
+                    Where I've joined
+                </p>
+
+                <h2 class="text-5xl font-bold text-white mb-2">
+                    Hackathons/Ideathons
+                </h2>
+
+                <div class="w-16 h-1 bg-[#7EFC9F] mx-auto"></div>
+
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Card 1 -->
+                <div
+                    class="bg-[#081F26] border-2 border-[#7EFC9F] rounded-lg shadow-md p-6 hover:shadow-xl hover:-translate-y-2 transition duration-300">
+
+                    <h3 class="text-2xl font-bold text-white">
+                        3rd Winner & Most Curious Participant (CommTECH Camp 2026: Technology Innovations)
+                    </h3>
+
+                    <p class="mt-4 text-gray-300">
+                        (2026) Institut Teknologi Sepuluh Nopember - Global Engagement
+                    </p>
+
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="bg-[#081F26] border-2 border-[#7EFC9F] rounded-lg shadow-md p-6 hover:shadow-xl hover:-translate-y-2 transition duration-300">
+
+                    <h3 class="text-2xl font-bold text-white">
+                        Top 5 National Finalist - National Technovation Summit 2025
+                    </h3>
+
+                    <p class="mt-4 text-gray-300">
+                        (2025) START-DOST
+                    </p>
+
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="bg-[#081F26] border-2 border-[#7EFC9F] rounded-lg shadow-md p-6 hover:shadow-xl hover:-translate-y-2 transition duration-300">
+
+                    <h3 class="text-2xl font-bold text-white">
+                        Participant - AI Ready ASEAN Youth Summit Competition 2026
+                    </h3>
+
+                    <p class="mt-4 text-gray-300">
+                        (2026) Angelhack & AI Singapore
+                    </p>
+
+                </div>
+
+                <!-- Card 4 -->
+                <div
+                    class="bg-[#081F26] border-2 border-[#7EFC9F] rounded-lg shadow-md p-6 hover:shadow-xl hover:-translate-y-2 transition duration-300">
+
+                    <h3 class="text-2xl font-bold text-white">
+                        Participant - ASEAN Data Science Explorers Competition 2026
+                    </h3>
+
+                    <p class="mt-4 text-gray-300">
+                        (2026) ASEAN Data Science Explorers
+                    </p>
+
+                </div>
+
+                <!-- Card 5 -->
+                <div
+                    class="bg-[#081F26] border-2 border-[#7EFC9F] rounded-lg shadow-md p-6 hover:shadow-xl hover:-translate-y-2 transition duration-300">
+
+                    <h3 class="text-2xl font-bold text-white">
+                        Participant (Team Lead) - IT Marketing Challenge 2026
+                    </h3>
+
+                    <p class="mt-4 text-gray-300">
+                        (2026) International Research Conference in IT Education (Region 3)
+                    </p>
+
+                </div>
+
+                <!-- Card 6 -->
+                <div
+                    class="bg-[#081F26] border-2 border-[#7EFC9F] rounded-lg shadow-md p-6 hover:shadow-xl hover:-translate-y-2 transition duration-300">
+
+                    <h3 class="text-2xl font-bold text-white">
+                        Participant (Project Pitch)- IT Marketing Challenge 2025
+                    </h3>
+
+                    <p class="mt-4 text-gray-300">
+                        (2025) International Research Conference in IT Education (Region 3)
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ===================== -->
+        <!-- Skills Section -->
+        <!-- ===================== -->
+        <section id="skills" class="max-w-7xl mx-auto px-6 py-20">
+
+            <!-- Top: Section heading, centered -->
+            <div class="text-center mb-12">
+
+                <p class="text-[#7EFC9F] font-semibold tracking-wide uppercase mb-2">
+                    What I Know
+                </p>
+
+                <h2 class="text-5xl font-bold text-white mb-2">
+                    My Skills
+                </h2>
+
+                <div class="w-16 h-1 bg-[#7EFC9F] mx-auto"></div>
+
+            </div>
+
+            <!-- Skill cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Card 1 -->
+                <div
+                    class="bg-white rounded-lg shadow-md p-6 group hover:bg-[#081F26] hover:shadow-xl hover:-translate-y-2 transition duration-300">
+                    <div class="flex justify-between items-center mb-3">
+                        <h3
+                            class="text-lg font-bold text-[#081F26] transition-colors duration-300 group-hover:text-[#7EFC9F]">
+                            Python</h3>
+                        <span
+                            class="text-[#0e6b3a] font-semibold transition-colors duration-300 group-hover:text-white">80%</span>
+                    </div>
+                    <div
+                        class="w-full h-2 bg-gray-200 rounded-full overflow-hidden transition-colors duration-300 group-hover:bg-white/20">
+                        <div class="h-full bg-[#0e6b3a] rounded-full transition-colors duration-300 group-hover:bg-white"
+                            style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="bg-white rounded-lg shadow-md p-6 group hover:bg-[#081F26] hover:shadow-xl hover:-translate-y-2 transition duration-300">
+                    <div class="flex justify-between items-center mb-3">
+                        <h3
+                            class="text-lg font-bold text-[#081F26] transition-colors duration-300 group-hover:text-[#7EFC9F]">
+                            RStudio</h3>
+                        <span
+                            class="text-[#0e6b3a] font-semibold transition-colors duration-300 group-hover:text-white">70%</span>
+                    </div>
+                    <div
+                        class="w-full h-2 bg-gray-200 rounded-full overflow-hidden transition-colors duration-300 group-hover:bg-white/20">
+                        <div class="h-full bg-[#0e6b3a] rounded-full transition-colors duration-300 group-hover:bg-white"
+                            style="width: 70%;"></div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="bg-white rounded-lg shadow-md p-6 group hover:bg-[#081F26] hover:shadow-xl hover:-translate-y-2 transition duration-300">
+                    <div class="flex justify-between items-center mb-3">
+                        <h3
+                            class="text-lg font-bold text-[#081F26] transition-colors duration-300 group-hover:text-[#7EFC9F]">
+                            SAP Analytics</h3>
+                        <span
+                            class="text-[#0e6b3a] font-semibold transition-colors duration-300 group-hover:text-white">90%</span>
+                    </div>
+                    <div
+                        class="w-full h-2 bg-gray-200 rounded-full overflow-hidden transition-colors duration-300 group-hover:bg-white/20">
+                        <div class="h-full bg-[#0e6b3a] rounded-full transition-colors duration-300 group-hover:bg-white"
+                            style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div
+                    class="bg-white rounded-lg shadow-md p-6 group hover:bg-[#081F26] hover:shadow-xl hover:-translate-y-2 transition duration-300">
+                    <div class="flex justify-between items-center mb-3">
+                        <h3
+                            class="text-lg font-bold text-[#081F26] transition-colors duration-300 group-hover:text-[#7EFC9F]">
+                            MySQL / Firebase</h3>
+                        <span
+                            class="text-[#0e6b3a] font-semibold transition-colors duration-300 group-hover:text-white">95%</span>
+                    </div>
+                    <div
+                        class="w-full h-2 bg-gray-200 rounded-full overflow-hidden transition-colors duration-300 group-hover:bg-white/20">
+                        <div class="h-full bg-[#0e6b3a] rounded-full transition-colors duration-300 group-hover:bg-white"
+                            style="width: 95%;"></div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div
+                    class="bg-white rounded-lg shadow-md p-6 group hover:bg-[#081F26] hover:shadow-xl hover:-translate-y-2 transition duration-300">
+                    <div class="flex justify-between items-center mb-3">
+                        <h3
+                            class="text-lg font-bold text-[#081F26] transition-colors duration-300 group-hover:text-[#7EFC9F]">
+                            HTML / CSS / JS</h3>
+                        <span
+                            class="text-[#0e6b3a] font-semibold transition-colors duration-300 group-hover:text-white">80%</span>
+                    </div>
+                    <div
+                        class="w-full h-2 bg-gray-200 rounded-full overflow-hidden transition-colors duration-300 group-hover:bg-white/20">
+                        <div class="h-full bg-[#0e6b3a] rounded-full transition-colors duration-300 group-hover:bg-white"
+                            style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div
+                    class="bg-white rounded-lg shadow-md p-6 group hover:bg-[#081F26] hover:shadow-xl hover:-translate-y-2 transition duration-300">
+                    <div class="flex justify-between items-center mb-3">
+                        <h3
+                            class="text-lg font-bold text-[#081F26] transition-colors duration-300 group-hover:text-[#7EFC9F]">
+                            PHP</h3>
+                        <span
+                            class="text-[#0e6b3a] font-semibold transition-colors duration-300 group-hover:text-white">80%</span>
+                    </div>
+                    <div
+                        class="w-full h-2 bg-gray-200 rounded-full overflow-hidden transition-colors duration-300 group-hover:bg-white/20">
+                        <div class="h-full bg-[#0e6b3a] rounded-full transition-colors duration-300 group-hover:bg-white"
+                            style="width: 80%;"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ===================== -->
+        <!-- Education Section -->
+        <!-- ===================== -->
+        <section id="education" class="max-w-7xl mx-auto px-6 py-20 flex flex-col md:flex-row gap-12">
+
+            <!-- Left: Section heading -->
+            <div class="flex-1">
+
+                <p class="text-[#7EFC9F] font-semibold tracking-wide uppercase mb-2">
+                    My Journey
+                </p>
+
+                <h2 class="text-5xl font-bold text-white mb-2">
+                    Education
+                </h2>
+
+                <div class="w-16 h-1 bg-[#7EFC9F]"></div>
+
+            </div>
+
+            <!-- Right: Timeline -->
+            <div class="flex-1">
+
+                <!-- Item 1 -->
+                <div class="relative pl-8 pb-10 border-l-2 border-[#7EFC9F]">
+                    <div class="absolute -left-2 top-0 w-4 h-4 rounded-full bg-[#7EFC9F]"></div>
+
+                    <p class="text-[#7EFC9F] font-semibold mb-1">2020 - 2022</p>
+                    <h3 class="text-xl font-bold text-white mb-1">Junior High School Completer</h3>
+                    <p class="text-gray-300">Victory Christian International School</p>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="relative pl-8 pb-10 border-l-2 border-[#7EFC9F]">
+                    <div class="absolute -left-2 top-0 w-4 h-4 rounded-full bg-[#7EFC9F]"></div>
+
+                    <p class="text-[#7EFC9F] font-semibold mb-1">2022 - 2024</p>
+                    <h3 class="text-xl font-bold text-white mb-1">Senior High School Graduate</h3>
+                    <p class="text-gray-300">APEC Schools V. Luna</p>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="relative pl-8">
+                    <div class="absolute -left-2 top-0 w-4 h-4 rounded-full bg-[#7EFC9F]"></div>
+
+                    <p class="text-[#7EFC9F] font-semibold mb-1">2024 - Present</p>
+                    <h3 class="text-xl font-bold text-white mb-1">BS Information Technology</h3>
+                    <p class="text-gray-300">Central Luzon State University</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ===================== -->
+        <!-- Contact Me Section -->
+        <!-- ===================== -->
+        <section id="contact" class="max-w-7xl mx-auto px-6 py-20">
+
+            <!-- Top: Section heading, centered -->
+            <div class="text-center mb-12">
+
+                <p class="text-[#7EFC9F] font-semibold tracking-wide uppercase mb-2">
+                    Get in Touch
+                </p>
+
+                <h2 class="text-5xl font-bold text-white mb-2">
+                    Contact Me
+                </h2>
+
+                <div class="w-16 h-1 bg-[#7EFC9F] mx-auto"></div>
+
+            </div>
+
+            <!-- Contact card: info left, form right -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                <!-- Left: Contact info -->
+                <div class="bg-[#081F26] border-2 border-[#7EFC9F] rounded-lg p-8">
+
+                    <h3 class="text-2xl font-bold text-white mb-3">
+                        Let's Work Together!
+                    </h3>
+
+                    <p class="text-gray-300 mb-8">
+                        Feel free to contact me if you have a project or opportunity.
+                    </p>
+
+                    <div class="mb-6">
+                        <p class="text-[#7EFC9F] font-semibold text-sm uppercase mb-1">Location</p>
+                        <p class="text-white">Nueva Ecija, Philippines</p>
+                    </div>
+
+                    <div class="mb-6">
+                        <p class="text-[#7EFC9F] font-semibold text-sm uppercase mb-1">Email</p>
+                        <p class="text-white">kaceypidazo2@gmail.com</p>
+                    </div>
+
+                    <div>
+                        <p class="text-[#7EFC9F] font-semibold text-sm uppercase mb-1">Phone</p>
+                        <p class="text-white">+63 916 405 0507</p>
+                    </div>
+
+                </div>
+
+                <!-- Right: Contact form -->
+                <div class="bg-white rounded-lg shadow-md p-8">
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+
+                        <div>
+                            <label class="block text-sm font-semibold text-[#081F26] mb-1">Name</label>
+                            <input type="text" placeholder="Your Name"
+                                class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-[#081F26]">
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-semibold text-[#081F26] mb-1">Email</label>
+                            <input type="email" placeholder="Your Email"
+                                class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-[#081F26]">
+                        </div>
+
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="block text-sm font-semibold text-[#081F26] mb-1">Subject</label>
+                        <input type="text" placeholder="Subject"
+                            class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-[#081F26]">
+                    </div>
+
+                    <div class="mb-6">
+                        <label class="block text-sm font-semibold text-[#081F26] mb-1">Message</label>
+                        <textarea placeholder="Write your message..." rows="5"
+                            class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-[#081F26]"></textarea>
+                    </div>
+
+                    <button
+                        class="w-full bg-[#081F26] hover:bg-[#0e2b34] text-white font-semibold py-3 rounded-lg transition duration-300">
+                        Send Message
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ===================== -->
+        <!-- Footer -->
+        <!-- ===================== -->
+        <footer class="bg-[#081F26] text-white py-10 mt-auto border-t border-white/20">
+
+            <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- Brand -->
+                <div>
+                    <h3 class="text-xl font-bold text-[#7EFC9F] mb-2">KaceyPidazo</h3>
+                    <p class="text-gray-300">Student Developer Portfolio</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-3">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-300 hover:text-[#7EFC9F]">Home</a></li>
+                        <li><a href="#about" class="text-gray-300 hover:text-[#7EFC9F]">About</a></li>
+                        <li><a href="#projects" class="text-gray-300 hover:text-[#7EFC9F]">Projects</a></li>
+                        <li><a href="#hackathons" class="text-gray-300 hover:text-[#7EFC9F]">Hackathons</a></li>
+                        <li><a href="#skills" class="text-gray-300 hover:text-[#7EFC9F]">Skills</a></li>
+                        <li><a href="#education" class="text-gray-300 hover:text-[#7EFC9F]">Education</a></li>
+                        <li><a href="#contact" class="text-gray-300 hover:text-[#7EFC9F]">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Connect -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-3">Connect</h4>
+                    <div class="flex gap-3">
+                        <a href="#"
+                            class="w-10 h-10 rounded-full border border-[#7EFC9F] flex items-center justify-center text-[#7EFC9F] hover:bg-[#7EFC9F] hover:text-[#081F26] transition duration-300">F</a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full border border-[#7EFC9F] flex items-center justify-center text-[#7EFC9F] hover:bg-[#7EFC9F] hover:text-[#081F26] transition duration-300">G</a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full border border-[#7EFC9F] flex items-center justify-center text-[#7EFC9F] hover:bg-[#7EFC9F] hover:text-[#081F26] transition duration-300">in</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="max-w-7xl mx-auto px-6 mt-8 pt-6 text-center">
+                <p class="text-gray-300">&copy; 2026 Benjamin Kacey L. Pidazo. All Rights Reserved.</p>
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
